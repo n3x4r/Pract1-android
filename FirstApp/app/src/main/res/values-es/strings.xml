@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="content">Cualquiera puede perder su teléfono, pero ahora puedes estar tranquilo. El Administrador de dispositivos Android te permite localizar de forma remota cualquier dispositivo que esté asociado a tu cuenta de Google, al mismo tiempo que mantiene tus datos seguros. Incluso puedes establecer un bloqueo de pantalla o borrar todos los datos del dispositivo en caso de pérdida o robo. Crisis resuelta.</string>
+    <string name="title">Protege tu teléfono incluso si lo pierdes</string>
+
+</resources>

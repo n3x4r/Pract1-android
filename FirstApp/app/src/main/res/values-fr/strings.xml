@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="content">Tout le monde peut perdre votre téléphone, mais maintenant vous pouvez dormir tranquille. Gestionnaire d\'appareils Android vous permet de localiser à distance un périphérique associé à votre compte Google tout en gardant vos données en toute sécurité. Vous pouvez même définir un verrouillage de l\'écran ou de supprimer toutes les données de l\'appareil en cas de perte ou de vol. Crise résolu.</string>
+    <string name="title">Protégez votre téléphone même si vous perdez</string>
+
+</resources>
