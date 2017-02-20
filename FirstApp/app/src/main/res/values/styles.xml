@@ -19,7 +19,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/size_title</item>
-        <item name="android:layout_marginTop">@dimen/margen_up</item>
+        <item name="android:layout_marginTop">@dimen/margin_up</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/color_button</item>
         <item name="android:gravity">center</item>
@@ -30,18 +30,24 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/size_text</item>
-        <item name="android:layout_marginTop">@dimen/margen_up</item>
-
-
-
+        <item name="android:layout_marginTop">@dimen/margin_up</item>
 
     </style>
 
     <style name="imagen">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/margen_up</item>
-        <item name="android:scaleType">fitXY</item>
-        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_up</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+    </style>
+
+
+    <style name="view_relativeL">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/padding_relativeL</item>
+
     </style>
 </resources>

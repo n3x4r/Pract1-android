@@ -12,15 +12,26 @@
         android:text="@string/title"
         style="@style/title"
     />
+
     <TextView
         android:id="@+id/content"
         android:layout_below="@id/title"
         style="@style/text"
+
         android:text="@string/content"
-       />
-    <ImageView
-        android:layout_below="@id/content"
-        style="@style/imagen"
-        android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/imagen"/>
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/content"
+        style="@style/view_relativeL"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_below="@id/content"
+
+            style="@style/imagen"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/android"
+            />
+    </LinearLayout>
 </RelativeLayout>

@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     style="@style/screen"
     tools:context="com.udl.android.firstapp.MainActivity">
 
-
     <TextView
         android:id="@+id/title"
-        android:gravity="center_horizontal"
         android:text="@string/title"
         style="@style/title"
     />
-
 
     <TextView
         android:id="@+id/content"
         android:layout_below="@id/title"
         style="@style/text"
         android:text="@string/content"
-       />
-
-    <ImageView
-        android:layout_below="@id/content"
-        style="@style/imagen"
-        android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/imagen"
         />
+
+    <LinearLayout
+        android:layout_below="@+id/content"
+        style="@style/view_relativeL">
+
+        <ImageView
+            android:layout_below="@id/content"
+            android:layout_centerInParent="true"
+            style="@style/imagen"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/android"
+            />
+    </LinearLayout>
 </RelativeLayout>
